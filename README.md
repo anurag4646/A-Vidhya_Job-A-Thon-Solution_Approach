@@ -3,7 +3,7 @@
 My approach to the problem is simple. First I look at the data and understand the problem and variables. The main thing that I noticed, the key of the Hackathon is how you deal with categorical variables and null imputation.
 
 ### Feature Engineering -
-The first is how to remove the null value for the credit product variable. I decided to remove this null value with one unique value eg- "NA". Because we can not impute Yes or No without having any knowledge, so I keet it not assign a (not known) type.
+The first is how to remove the null value for the credit product variable. I decided to remove this null value with one unique value eg- "NA". Because we can not impute Yes or No without having any knowledge, so I did not assign it to any type.
 
 To deal with categorical variables, I used 2 approaches first is One-Hot-encoder(Dummy encoding) and the second one is the Label encoder. Both methods have their pros and cons. The Algorithm that I have tried that is "Cat BOOST classifier" and CatBoost deal with categorical data in
 such a way that, we just need to specify the categorical variable index and do all the necessary computation.
