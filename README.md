@@ -12,3 +12,10 @@ I did the dummy encoding with the Gender variable. For other variables, I just d
 
 First, I build the baseline model with simple logistic regression after that I chose the Cat Boost Classifier because the way cat boost deal with the categorical variables is fantastic and it also boosts your AUC-Score.
 
+![](Roc_CatBoost.png)
+
+### Feature Importance - 
+
+Below are the some Important variable accoring to my modelling. 
+
+![](cat_boost_feature_importance)
