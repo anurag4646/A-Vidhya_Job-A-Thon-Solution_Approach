@@ -18,4 +18,4 @@ First, I build the baseline model with simple logistic regression after that I c
 
 Below are the some Important variable accoring to my modelling. 
 
-![](cat_boost_feature_importance)
+![](cat_boost_feature_importance.png)
